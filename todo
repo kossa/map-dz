@@ -1,0 +1,10 @@
+Create the MAP and try it all Browsers
+
+Everything will be configurable :
+  *- Scale of the MAP
+  *- OBJ { numWilaya, nameWilaya, linkWilaya }
+  *- Alphapet{ letters, [nameWilaya] }
+  *- Colors {
+    onLetters {normal, over, clicked},
+    onMap {normal, over}
+  }

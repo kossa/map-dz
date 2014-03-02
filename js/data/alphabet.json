@@ -1,0 +1,137 @@
+{
+  "alif": {
+    "class": "active",
+    "title": "أدرار, الأغواط, أم البواقي, إليزي",
+    "letter": "أ"
+  },
+  "baa": {
+    "class": "active",
+    "title": "باتنة, بجاية, بسكرة, بشار, البليدة, البويرة, البيض, برج بوعريريج, بومرداس",
+    "letter": "ب"
+  },
+  "taa": {
+    "class": "active",
+    "title": "تمنراست, تبسة, تلمسان, تيارت, تيزي وزو, تندوف, تسمسيلت, تيبازة",
+    "letter": "ت"
+  },
+  "tha": {
+    "class": "disable",
+    "title": "",
+    "letter": "ث"
+  },
+  "dja": {
+    "class": "active",
+    "title": "الجزائر, الجلفة, جيجل",
+    "letter": "ج"
+  },
+  "haa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ح"
+  },
+  "kha": {
+    "class": "active",
+    "title": "خنشلة",
+    "letter": "خ"
+  },
+  "dal": {
+    "class": "disable",
+    "title": "",
+    "letter": "د"
+  },
+  "dha": {
+    "class": "disable",
+    "title": "",
+    "letter": "ض"
+  },
+  "raa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ر"
+  },
+  "zaa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ز"
+  },
+  "sin": {
+    "class": "active",
+    "title": "سطيف, سعيدة, سكيكدة, سيدي بلعباس, سوق أهراس",
+    "letter": "س"
+  },
+  "cha": {
+    "class": "active",
+    "title": "الشلف",
+    "letter": "ش"
+  },
+  "sad": {
+    "class": "disable",
+    "title": "",
+    "letter": "ص"
+  },
+  "ta2": {
+    "class": "active",
+    "title": "الطارف",
+    "letter": "ط"
+  },
+  "dad": {
+    "class": "disable",
+    "title": "",
+    "letter": "ظ"
+  },
+  "ine": {
+    "class": "active",
+    "title": "عنابة, عين الدفلى, عين تموشنت",
+    "letter": "ع"
+  },
+  "gha": {
+    "class": "active",
+    "title": "غرداية, غليزان",
+    "letter": "غ"
+  },
+  "faa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ف"
+  },
+  "kaf": {
+    "class": "active",
+    "title": "قالمة, قسنطينة",
+    "letter": "ق"
+  },
+  "kaa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ك"
+  },
+  "lam": {
+    "class": "disable",
+    "title": "",
+    "letter": "ل"
+  },
+  "mim": {
+    "class": "active",
+    "title": "المدية, مستغانم, المسيلة, معسكر, ميلة",
+    "letter": "م"
+  },
+  "non": {
+    "class": "active",
+    "title": "النعامة",
+    "letter": "ن"
+  },
+  "hae": {
+    "class": "disable",
+    "title": "",
+    "letter": "ه"
+  },
+  "waw": {
+    "class": "active",
+    "title": "ورقلة, وهران, الوادي",
+    "letter": "و"
+  },
+  "yaa": {
+    "class": "disable",
+    "title": "",
+    "letter": "ي"
+  }
+}
