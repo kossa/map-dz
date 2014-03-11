@@ -6,7 +6,11 @@ body{
 body.ar{
   direction: rtl;
 }
-
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 a{
   text-decoration: none;
 }
@@ -29,10 +33,22 @@ a{
   -o-transform: scale(0.3);
   -ms-transform: scale(0.3);
   transform: scale(0.3);
-
   margin-left: -410px;
   margin-top: -410px;
+}
 
+#the-map path{
+  fill:#e6e6e6;
+  stroke:white;
+  stroke-width:1.5;
+  stroke-linecap:round;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  display:inline
+  -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;-ms-transition: all 0.3s;transition: all 0.3s;
+}
+#the-map path:hover{
+  fill: #2c3e50!important;
 }
 
 ul#alphabet{
@@ -42,6 +58,7 @@ ul#alphabet{
 }
 ul#alphabet li{
   display: inline-block;
+  position: relative;
 }
 ul#alphabet li a{
   color: #333;
@@ -62,16 +79,69 @@ ul#alphabet li a{
   -o-border-radius: 25px;
   -webkit-border-radius: 25px;
   -ms-border-radius: 25px;
-  border: 1px solid #69ad08;
-  
+  border: 1px solid #27ae60;
+  padding: 2px;
+
 }
 ul#alphabet a.active:hover{
   border: 1px solid rgba(56,0,0,0.65);
   color: #fff;
   box-shadow: 0px 2px 7px rgba(0,0,0,0.5);
-  background-color: #DF0024;
+  background-color: #c0392b;
+}
+ul#alphabet a.active:hover + ul{
+  display: inline-block;
+}
+ul#alphabet a.open + ul{
+  display: inline-block;
 }
 ul#alphabet li a.disable{
-  color: #487706;
-  cursor: default;
+  color: #CACACA;
+  cursor: not-allowed;
 }
+ul#alphabet ul{
+  position: absolute;
+  direction: ltr;
+  display: none;
+  padding: 0px 6px;
+  right: 0;
+  width: 300px;
+  background: #1C240F;
+  border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-webkit-border-radius: 5px;ms-border-radius: 5px;
+  z-index: 999;
+}
+ul#alphabet ul:before{
+  content: 'deded',
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red transparent transparent transparent;
+}
+ul#alphabet ul li{
+  display: inline-block;
+  float: right;
+}
+ul#alphabet ul li a{
+  width: auto;
+  color: #fff;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-webkit-border-radius: 5px;ms-border-radius: 5px;
+}
+ul#alphabet ul li a:hover{
+  background-color: #DA0B26;
+}
+
+ul#alphabet li a#alif + ul{width: 271px;}
+ul#alphabet li a#dja + ul{width: 195px;}
+ul#alphabet li a#kha + ul{width: 70px;}
+ul#alphabet li a#cha + ul{width: 70px;}
+ul#alphabet li a#ta2 + ul{width: 75px;}
+ul#alphabet li a#ine + ul{width: 255px;}
+ul#alphabet li a#gha + ul{width: 145px;}
+ul#alphabet li a#kaf + ul{width: 140px;}
+ul#alphabet li a#mim + ul{width: 160px;}
+ul#alphabet li a#non + ul{width: 80px;}
+ul#alphabet li a#waw + ul{width: 140px;}
