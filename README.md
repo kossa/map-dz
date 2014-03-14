@@ -1,4 +1,4 @@
 map-dz
 ======
 
-The MAP of Algeria
+The MAP of Algeria in SVG format.
